@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Piano</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image"></div>
+        <div class="row heading" >
+            <h2 id="piano">Play Piano.....</h2>&nbsp;&nbsp;
+            <i class="fas fa-music first"></i>&nbsp;
+            <i class="fas fa-music second"></i>
+            <br>
+        </div>
+        <div class="row main">
+            <div data-note="C4" class="key white first"></div>
+            <div data-note="Db4" class="key black first"></div>
+            <div data-note="D4" class="key white first"></div>
+            <div data-note="Eb4" class="key black first"></div>
+            <div data-note="E4" class="key white first"></div>
+            <div data-note="F4" class="key white first"></div>
+            <div data-note="Gb4" class="key black first"></div>
+            <div data-note="G4" class="key white first"></div>
+            <div data-note="Ab4" class="key black first"></div>
+            <div data-note="A4" class="key white first"></div>
+            <div data-note="Bb4" class="key black first"></div>
+            <div data-note="B4" class="key white first"></div>
+            <div data-note="C5" class="key white first"></div>
+            <div data-note="Db5" class="key black first"></div>
+            <div data-note="D5" class="key white first"></div>
+            <div data-note="Eb5" class="key black first"></div>
+            <div data-note="E5" class="key white first"></div>
+        </div>
+        
+        <audio id="C4" src="note_audio/C4.mp3"></audio>
+        <audio id="Db4" src="note_audio/Db4.mp3"></audio>
+        <audio id="D4" src="note_audio/D4.mp3"></audio>
+        <audio id="Eb4" src="note_audio/Eb4.mp3"></audio>
+        <audio id="E4" src="note_audio/E4.mp3"></audio>
+        <audio id="F4" src="note_audio/F4.mp3"></audio>
+        <audio id="Gb4" src="note_audio/Gb4.mp3"></audio>
+        <audio id="G4" src="note_audio/G4.mp3"></audio>
+        <audio id="Ab4" src="note_audio/Ab4.mp3"></audio>
+        <audio id="A4" src="note_audio/A4.mp3"></audio>
+        <audio id="Bb4" src="note_audio/Bb4.mp3"></audio>
+        <audio id="B4" src="note_audio/B4.mp3"></audio>
+        <audio id="C5" src="note_audio/C5.mp3"></audio>
+        <audio id="Db5" src="note_audio/Db5.mp3"></audio>
+        <audio id="D5" src="note_audio/D5.mp3"></audio>
+        <audio id="Eb5" src="note_audio/Eb5.mp3"></audio>
+        <audio id="E5" src="note_audio/E5.mp3"></audio>
+        
+        <div class="row change_color">
+                <button id="change_color_button" class = "first">Change Color</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
